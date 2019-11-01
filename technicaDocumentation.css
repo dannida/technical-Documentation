@@ -1,0 +1,169 @@
+html,
+body {
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+  }
+
+a:hover {
+  box-shadow: 10px 10px 5px #888888;
+  color: rgb(181, 223, 181);
+}
+
+header {
+  color: black;
+  font-size: 1.5em;
+}
+
+p {
+  margin-left: 3%;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+#subTitle {
+  color: black;
+  font-size: 1.5em;
+}
+
+#fcLink:hover {
+  color: blue;
+}
+
+.techniques:hover {
+  box-shadow: 10px 10px 5px #cccbcb;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: auto;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  flex-wrap: nowrap;
+  background: linear-gradient(to left, white, grey);
+}
+
+.nav-link {
+  border: 1px solid rgb(148, 142, 142);
+  color: rgb(75, 69, 69);
+}
+
+#main-doc {
+  margin-left: 340px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 20px;
+  background: radial-gradient(rgb(184, 224, 184), white, rgb(203, 238, 203));
+}
+
+.headerMargTop {
+  margin-top: 2%;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+}
+
+#ulProgramming {
+  margin-left: 30%;
+}
+
+.list-group {
+  margin-left: 10%;
+}
+
+#algorithmExample {
+  width: 70%;
+  margin-bottom: 2%;
+}
+
+.qbasicExample {
+  background: rgb(214, 213, 213);
+  padding: 2%;
+  margin-bottom: 2%;
+  list-style-type: none;
+}
+
+#gotoDiv {
+  margin-left: 3%;
+}
+
+#gotoExample {
+  background: blue;
+  margin-left: 2%;
+  color: whitesmoke;
+  padding: 2%;
+}
+
+#gotoOutput {
+  background: black;
+  margin-left: 2%;
+  margin-top: 1%;
+  color: whitesmoke;
+  padding: 2%;
+}
+
+span {
+  display: block;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+.dotted-border {
+  border-style: dotted;
+  padding: 1%;
+}
+
+.loopExample {
+  background: blue;
+  margin-left: 2%;
+  color: whitesmoke;
+  padding: 2%;
+}
+
+.loopExampleOutput {
+  background: black;
+  margin-left: 2%;
+  color: whitesmoke;
+  padding: 2%;
+}
+
+@media only screen and (max-width: 900px) {
+  #navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 10000;
+    border-bottom: 2px solid;
+  }
+
+  #main-doc {
+    margin-left: 0;
+    margin-top: 300px;
+  }
+
+  iframe {
+    width: 388px;
+    height: 250px;
+  }
+
+  html,
+  body {
+    scroll-padding-top: 275px; /*the scroll-padding-top allows the anchor links to work properly. it takes the height of the sticky navbar*/
+  }
+}
+
